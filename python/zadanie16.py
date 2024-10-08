@@ -1,14 +1,9 @@
 def get_numbers():
-    is_get_numbers = True
     nums = []
+    file = open('./dane_zadanie16.txt', 'r')
 
-    print('Wpisuj liczby (wciśnij klawisz Enter aby zakończyć wpisywanie)...')
-    while is_get_numbers:
-        user_element = input('Podaj kolejny element: ')
-        if user_element == '':
-            is_get_numbers = False
-        else:
-            nums.append(int(user_element))
+    for line in file:
+        nums.append(int(line))
 
     return nums
 
