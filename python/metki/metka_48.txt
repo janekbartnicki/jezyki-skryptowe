@@ -1,0 +1,3 @@
+płeć: Mężczyzna
+kolor: biały
+rozmiar: XS

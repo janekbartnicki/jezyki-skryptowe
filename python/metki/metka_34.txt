@@ -1,0 +1,3 @@
+płeć: Kobieta
+kolor: żółty
+rozmiar: M
